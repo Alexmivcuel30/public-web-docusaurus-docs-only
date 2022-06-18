@@ -2,15 +2,15 @@ name: Alexmivcuel30/public-web-react
 
 on:
   push:
-    branches: [main]
+    branches: [main,Www.alexmivcuel.com]
   pull_request:
-    branches: [main]
+    branches: [main,Www.alexmivcuel.com]
 
 permissions: write-all
 
 env:
   CI: false
-  Branches: main
+  Branches: main,Www.alexmivcuel.com
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm ci
